@@ -1,0 +1,1 @@
+import{d as o,o as a,m as l,x as s,y as t}from"./C1Qq1QLd.js";const m=o({__name:"BlockContainer",props:{fullWidth:{type:Boolean,default:!1}},setup(n){return(e,p)=>(a(),l("section",{class:t(["py-8 mx-auto",e.fullWidth?"":"px-6 lg:px-16 lg:py-24 max-w-6xl"])},[s(e.$slots,"default")],2))}});export{m as _};

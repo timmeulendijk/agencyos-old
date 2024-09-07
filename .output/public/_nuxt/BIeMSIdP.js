@@ -1,0 +1,1 @@
+import{d as a,o as e,m as r}from"./C1Qq1QLd.js";const s={key:0,class:"h-full border-l border-gray-300 dark:border-gray-700"},t={key:1,class:"w-full border-t border-gray-300 dark:border-gray-700"},n=a({__name:"VDivider",props:{vertical:{type:Boolean,default:!1}},setup(d){return(o,l)=>o.vertical?(e(),r("div",s)):(e(),r("div",t))}});export{n as _};

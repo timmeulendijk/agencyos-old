@@ -1,0 +1,1 @@
+.animate-marquee{animation:marquee var(--marquee-duration) linear infinite}.animate-marquee:hover{animation-play-state:paused}@keyframes marquee{0%{transform:translateY(0)}to{transform:translateY(-50%)}}.steps-animation .path{stroke-dasharray:1,30;animation:dash 5s linear infinite both}@keyframes dash{0%{stroke-dashoffset:0}to{stroke-dashoffset:-15rem}}

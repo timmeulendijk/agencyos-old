@@ -1,0 +1,1 @@
+import e from"./Dts3F0k1.js";import{d as _,o as m,g as t}from"./C1Qq1QLd.js";const s=_({__name:"UIcon",props:{name:{}},setup(a){return(n,c)=>{const o=e;return m(),t(o,{name:n.name},null,8,["name"])}}});export{s as _};

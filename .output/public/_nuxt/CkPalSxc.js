@@ -1,0 +1,1 @@
+import{_ as e}from"./DlAUqK2U.js";import{g as a,w as r,ah as n,o as s,x as c}from"./C1Qq1QLd.js";const l={};function _(o,f){const t=n("PortalLayout");return s(),a(t,null,{default:r(()=>[c(o.$slots,"default")]),_:3})}const m=e(l,[["render",_]]);export{m as default};

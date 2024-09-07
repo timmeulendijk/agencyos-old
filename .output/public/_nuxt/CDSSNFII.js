@@ -1,0 +1,1 @@
+import{V as e,aE as s,aF as r}from"./C1Qq1QLd.js";async function a(t){return await e().$directus.request(t)}function c(t){return s(()=>{var u;const n=(u=r())==null?void 0:u.appContext.app.$nuxt;return n?n.runWithContext(t):t()})}export{a as u,c as w};

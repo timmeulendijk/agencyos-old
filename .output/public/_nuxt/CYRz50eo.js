@@ -1,0 +1,1 @@
+import{o as e,m as a,t as l}from"./C1Qq1QLd.js";const o=["for"],c={__name:"VLabel",props:{label:{type:String,default:""},name:{type:String,default:""}},setup(t){return(r,n)=>(e(),a("label",{for:t.name,class:"block mb-1 text-sm font-semibold text-gray-600 dark:text-gray-300"},l(t.label),9,o))}};export{c as _};

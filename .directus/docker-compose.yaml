@@ -1,8 +1,9 @@
+version: '1.0'
 services:
 
   # DIRECTUS
   directus:
-    image: directus/directus:latest
+    image: directus/directus:11.1.0
     container_name: directus
     restart: always
     env_file:

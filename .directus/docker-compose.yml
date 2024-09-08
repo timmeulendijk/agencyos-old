@@ -4,7 +4,7 @@ services:
     container_name: directus
     restart: always  
     env_file:
-      - .env.directus
+      - .env
     ports:
       - "8055:8055"
     environment:
@@ -47,15 +47,15 @@ services:
       - ./uploads:/directus/uploads
       - ./extensions:/directus/extensions
       - ./templates:/directus/templates
-      - ./run-scripts:/directus/run-scripts    
+      - ./run-scripts:/directus/run-scripts
 
-  agencyos:
-    image: timmeulendijk/agencyos:latest
-    container_name: agencyos
-    restart: always
-    env_file:
-      - .env.agencyos
-    ports:
-      - "4000:4000"
-    depends_on:
-      - directus
+  # agencyos:
+  #   image: timmeulendijk/agencyos:latest
+  #   container_name: agencyos
+  #   restart: always
+  #   env_file:
+  #     - .env.agencyos
+  #   ports:
+  #     - "4000:4000"
+  #   depends_on:
+  #     - directus

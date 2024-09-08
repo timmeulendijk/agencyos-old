@@ -4,6 +4,8 @@ node_modules
 .nitro
 .cache
 # .output
+.env.agencyos
+.env.directus
 .env
 dist
 .DS_Store
